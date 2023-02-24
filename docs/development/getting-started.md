@@ -16,8 +16,6 @@ description: Getting started with the development environment
 
 ### Setup
 
-To setup your Git and have the ability to access the repository, follow the instructions [here](/docs/contributing/getting-started#how-to-run-the-documentation-locally) to get the SSH keys setup with your GitHub account.
-
 
 1. Clone the repository
 
