@@ -1,0 +1,1 @@
+curl -u 'ssmif:spring2023' --header "secret: christian" 3.238.130.205/update_docs
