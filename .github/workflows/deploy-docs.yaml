@@ -1,0 +1,20 @@
+name: Update docs
+
+on:
+  workflow_dispatch:
+    inputs:
+      branch:
+        required: true
+        type: string
+        default: "main"
+        description: "branch to update server with"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Send update request to server
+      shell: bash
+      run: scripts/send_message.sh ${{ github.event.inputs.branch }}
