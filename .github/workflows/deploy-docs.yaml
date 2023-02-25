@@ -17,4 +17,4 @@ jobs:
 
     - name: Send update request to server
       shell: bash
-      run: scripts/send_message.sh ${{ github.event.inputs.branch }}
+      run: scripts/send-message.sh ${{ github.event.inputs.branch }}
