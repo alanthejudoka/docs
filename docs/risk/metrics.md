@@ -35,9 +35,9 @@ Below are definitions for each metric
 
 ## Calmar Ratio
 
-**Definition**: Avaerage annual rate of return over the ax drawdown
+**Definition**: Avaerage annual rate of return over the max drawdown
 
-**Uses/Strategies**: If the ratio is higher, it means that it gives a high rate of return compared to a low maximum drawdown (maximum loss from peak to trough). this means that, the higher the ratio, the better it performed on a risk-adjusted basis. Anything above .5 is considered good, and a ration between 3.0 and 5.0 is really good.
+**Uses/Strategies**: If the ratio is higher, it means that it gives a high rate of return compared to a low maximum drawdown (maximum loss from peak to trough). this means that, the higher the ratio, the better it performed on a risk-adjusted basis. Anything above .5 is considered good, and a ratio between 3.0 and 5.0 is really good.
 
 ## Sharpe Ratio
 
