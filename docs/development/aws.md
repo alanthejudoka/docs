@@ -14,4 +14,16 @@ Nginx is the web server that is used to serve the static files. Nginx is configu
 
 ## Scripts
 
-There are a few scripts for both Bailey and the documentation. 
+There are a few scripts for both Bailey and the documentation.
+
+## Deploy to live site
+
+To deploy to live site follow these instructions
+
+1. Make sure the bailey origin main branch is updated with desired content
+2. Go to "Actions" in the Github repo
+3. Click "Update Server Code"
+4. Click "Run Workflow"
+5. Click the green button "Run Workflow"
+
+Updates should now be live!

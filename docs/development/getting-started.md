@@ -16,7 +16,6 @@ description: Getting started with the development environment
 
 ### Setup
 
-
 1. Clone the repository
 
 ```bash
@@ -36,7 +35,9 @@ pip install -r requirements.txt
 docker-compose up -d
 ```
 
-4. Run the development server
+4. Rename the file .env.example to .env
+
+5. Run the development server
 
 ```bash
 ./launch.sh

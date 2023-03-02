@@ -9,7 +9,7 @@ This section is how to get started contributing to the documentation.
 
 ## How to contribute
 
-The documentation is written in [Markdown](https://www.markdownguide.org/). You can edit the documentation directly on GitHub by clicking the "Edit this page" button on the top right of the page.
+The documentation is written in [Markdown](https://www.markdownguide.org/). To contribute to the docs you should navigate to the docs folder and create a markdown file. This markdown file will automatically be updated within the docs!
 
 ## How to run the documentation locally
 
@@ -24,13 +24,13 @@ Once you have created the SSH key, you will need to add it to your GitHub accoun
 Once you have added the SSH key to your GitHub account, you can clone the repository by running the following command:
 
 ```bash
-git clone git@github.com:SSMIF-Quant/baileys.git
+git clone git@github.com:SSMIF-Quant/docs.git
 ```
 
 After you clone, you will need to install the dependencies and start the development server.
 
 ```bash
-cd baileys
+cd docs
 npm install
 npm start
 ```
